@@ -1,0 +1,4 @@
+method,Dice/img,official F1,inst F1@.5,mAP50,mAP50-95,lesion recall@IoU.5,mean best IoU
+B baseline,0.5941,0.4653,0.4096,0.2349,0.0665,0.381,0.391
+S B with training seed 1042,0.5948,0.4622,0.407,0.2458,0.0728,0.389,0.395
+N full VG-DeepLab,0.6028,0.4631,0.4141,0.2462,0.0742,0.386,0.395

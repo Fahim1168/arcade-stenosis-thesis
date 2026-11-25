@@ -1,0 +1,7 @@
+comparison,metric,difference,95% CI,P(better),CI excludes 0
+R minus B,Dice/img,-0.0001,"[-0.0078, +0.0072]",0.459,no
+R minus B,official F1,-0.0045,"[-0.0141, +0.0048]",0.169,no
+N minus B,Dice/img,0.0087,"[+0.0001, +0.0163]",0.976,YES
+N minus B,official F1,-0.0023,"[-0.0123, +0.0075]",0.332,no
+N minus R,Dice/img,0.0088,"[+0.0012, +0.0165]",0.992,YES
+N minus R,official F1,0.0022,"[-0.0080, +0.0121]",0.67,no

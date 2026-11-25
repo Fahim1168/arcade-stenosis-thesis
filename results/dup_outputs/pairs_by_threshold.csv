@@ -1,0 +1,6 @@
+rule,pairs,same_fold,different_folds,pool_test
+raw32 >= 0.98 (thesis rule),20,5,15,0
+hp128 >= 0.50 (5th pct of positive control),3000,844,1127,1029
+hp128 >= 0.70,3000,844,1127,1029
+hp128 >= 0.50,3000,844,1127,1029
+ssim128 >= 0.80,12,4,8,0

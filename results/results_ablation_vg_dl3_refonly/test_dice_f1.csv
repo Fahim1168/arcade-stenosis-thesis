@@ -1,0 +1,7 @@
+method,operating point,Dice/img [95% CI],Dice pooled,official F1 [95% CI]
+B baseline,balanced-DEPLOY,"0.6197 [0.596,0.640]",0.6327,"0.5175 [0.489,0.545]"
+B baseline,maxF1-ARCADE,"0.6222 [0.597,0.645]",0.6368,"0.5415 [0.513,0.568]"
+R refinement head only,balanced-DEPLOY,"0.6251 [0.601,0.645]",0.6386,"0.5194 [0.492,0.547]"
+R refinement head only,maxF1-ARCADE,"0.6185 [0.591,0.644]",0.6351,"0.5512 [0.522,0.581]"
+N full VG-DeepLab,balanced-DEPLOY,"0.6358 [0.611,0.657]",0.6468,"0.5436 [0.515,0.570]"
+N full VG-DeepLab,maxF1-ARCADE,"0.6412 [0.616,0.662]",0.6521,"0.5579 [0.530,0.584]"

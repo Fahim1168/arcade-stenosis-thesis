@@ -1,0 +1,7 @@
+method,operating point,inst F1@.5,P@.5,R@.5,IoU/img,lesions/img
+B baseline,balanced-DEPLOY,0.461,0.4355,0.4896,0.4741,1.45
+B baseline,maxF1-ARCADE,0.4916,0.491,0.4922,0.4796,1.29
+V vessel head only,balanced-DEPLOY,0.479,0.4575,0.5026,0.4874,1.41
+V vessel head only,maxF1-ARCADE,0.5073,0.5175,0.4974,0.4967,1.24
+N full VG-DeepLab,balanced-DEPLOY,0.4864,0.4667,0.5078,0.4936,1.4
+N full VG-DeepLab,maxF1-ARCADE,0.5173,0.5114,0.5233,0.4998,1.32

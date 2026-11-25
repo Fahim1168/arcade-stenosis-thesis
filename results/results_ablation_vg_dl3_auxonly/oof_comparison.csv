@@ -1,0 +1,4 @@
+method,Dice/img,official F1,inst F1@.5,mAP50,mAP50-95,lesion recall@IoU.5,mean best IoU
+B baseline,0.5941,0.4653,0.4091,0.2349,0.0664,0.381,0.391
+V vessel head only,0.6042,0.4661,0.4104,0.2389,0.0709,0.384,0.396
+N full VG-DeepLab,0.6028,0.4631,0.4141,0.2462,0.0742,0.386,0.395

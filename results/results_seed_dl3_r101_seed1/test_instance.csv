@@ -1,0 +1,7 @@
+method,operating point,inst F1@.5,P@.5,R@.5,IoU/img,lesions/img
+B baseline,balanced-DEPLOY,0.4591,0.4342,0.487,0.474,1.44
+B baseline,maxF1-ARCADE,0.4638,0.4471,0.4819,0.4759,1.39
+S B with training seed 1042,balanced-DEPLOY,0.4501,0.4395,0.4611,0.48,1.35
+S B with training seed 1042,maxF1-ARCADE,0.4524,0.4439,0.4611,0.4804,1.34
+N full VG-DeepLab,balanced-DEPLOY,0.4864,0.4667,0.5078,0.4936,1.4
+N full VG-DeepLab,maxF1-ARCADE,0.5198,0.5139,0.5259,0.4999,1.32

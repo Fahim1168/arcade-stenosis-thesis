@@ -1,0 +1,16 @@
+comparison,metric,difference,95% CI,P(better),CI excludes 0
+S minus B,Dice/img,0.0026,"[-0.0067, +0.0109]",0.704,no
+S minus B,official F1,0.017,"[+0.0035, +0.0303]",0.993,YES
+S minus B,inst F1@.5,-0.009,"[-0.0404, +0.0222]",0.281,no
+S minus B,mAP50,0.002,"[-0.0223, +0.0331]",0.615,no
+S minus B,mAP50-95,0.0015,"[-0.0059, +0.0117]",0.69,no
+N minus B,Dice/img,0.0161,"[+0.0079, +0.0249]",1.0,YES
+N minus B,official F1,0.0271,"[+0.0133, +0.0422]",1.0,YES
+N minus B,inst F1@.5,0.0273,"[-0.0025, +0.0571]",0.962,no
+N minus B,mAP50,0.0431,"[+0.0068, +0.0797]",1.0,YES
+N minus B,mAP50-95,0.011,"[+0.0032, +0.0215]",1.0,YES
+N minus S,Dice/img,0.0135,"[+0.0056, +0.0224]",1.0,YES
+N minus S,official F1,0.0102,"[-0.0049, +0.0254]",0.918,no
+N minus S,inst F1@.5,0.0363,"[+0.0026, +0.0692]",0.981,YES
+N minus S,mAP50,0.041,"[+0.0082, +0.0732]",0.99,YES
+N minus S,mAP50-95,0.0095,"[-0.0010, +0.0184]",0.965,no

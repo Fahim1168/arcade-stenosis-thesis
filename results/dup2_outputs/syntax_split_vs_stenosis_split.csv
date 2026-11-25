@@ -1,0 +1,10 @@
+syntax_split,stenosis_split,n_syntax,max_corr32,n_corr_ge_098,n_corr_ge_098_and_ssim_ge_09,n_exact_copies
+train,train,1000,1.0,250,247,0
+train,val,1000,1.0,21,18,0
+train,test,1000,0.9608,0,0,0
+val,train,200,1.0,73,71,0
+val,val,200,0.9999,1,1,0
+val,test,200,0.967,0,0,0
+test,train,300,0.9765,0,0,0
+test,val,300,0.9693,0,0,0
+test,test,300,1.0,123,123,123

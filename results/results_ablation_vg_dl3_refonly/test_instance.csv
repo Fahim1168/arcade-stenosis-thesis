@@ -1,0 +1,7 @@
+method,operating point,inst F1@.5,P@.5,R@.5,IoU/img,lesions/img
+B baseline,balanced-DEPLOY,0.461,0.4355,0.4896,0.4741,1.45
+B baseline,maxF1-ARCADE,0.4916,0.491,0.4922,0.4796,1.29
+R refinement head only,balanced-DEPLOY,0.4672,0.4404,0.4974,0.4798,1.45
+R refinement head only,maxF1-ARCADE,0.4993,0.5373,0.4663,0.4813,1.12
+N full VG-DeepLab,balanced-DEPLOY,0.4864,0.4667,0.5078,0.4936,1.4
+N full VG-DeepLab,maxF1-ARCADE,0.5173,0.5114,0.5233,0.4998,1.32

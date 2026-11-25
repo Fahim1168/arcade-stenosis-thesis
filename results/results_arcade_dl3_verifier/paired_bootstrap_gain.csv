@@ -1,0 +1,9 @@
+comparison,metric,difference,95% CI of difference,P(verifier better),CI excludes 0
+verifier minus M2 segmenter only,Dice/img,0.0,"[+0.0000, +0.0000]",0.0,no
+verifier minus M2 segmenter only,official F1,0.0,"[+0.0000, +0.0000]",0.0,no
+verifier minus M2 segmenter only,mAP50,0.0,"[+0.0000, +0.0000]",0.0,no
+verifier minus M2 segmenter only,mAP50-95,0.0,"[+0.0000, +0.0000]",0.0,no
+verifier minus M1 segmenter only,Dice/img,-0.0018,"[-0.0051, +0.0019]",0.151,no
+verifier minus M1 segmenter only,official F1,0.0006,"[-0.0078, +0.0098]",0.563,no
+verifier minus M1 segmenter only,mAP50,0.0,"[+0.0000, +0.0000]",0.0,no
+verifier minus M1 segmenter only,mAP50-95,0.0,"[+0.0000, +0.0000]",0.0,no

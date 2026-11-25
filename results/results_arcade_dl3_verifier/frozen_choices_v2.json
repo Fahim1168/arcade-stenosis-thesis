@@ -1,0 +1,106 @@
+{
+  "best_mode": "seg",
+  "headline": "balanced",
+  "ops_base_full": {
+    "maxDice": {
+      "thr": 0.35,
+      "min_area": 150,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6027886273512212,
+      "oof_p1": 0.46754111537941573
+    },
+    "maxF1": {
+      "thr": 0.45,
+      "min_area": 331,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.5986303982035496,
+      "oof_p1": 0.46959099858370346
+    },
+    "balanced": {
+      "thr": 0.35,
+      "min_area": 150,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6027886273512212,
+      "oof_p1": 0.46754111537941573
+    }
+  },
+  "ops_base_same": {
+    "maxDice": {
+      "thr": 0.0,
+      "min_area": 0,
+      "tau": 0.4,
+      "rel": 0.75,
+      "max_k": 99,
+      "top1": false,
+      "oof_dice": 0.602192769574027,
+      "oof_p1": 0.4649530833406995
+    },
+    "maxF1": {
+      "thr": 0.0,
+      "min_area": 0,
+      "tau": 0.4,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6020096006784542,
+      "oof_p1": 0.4652957382051068
+    },
+    "balanced": {
+      "thr": 0.0,
+      "min_area": 0,
+      "tau": 0.4,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6020096006784542,
+      "oof_p1": 0.4652957382051068
+    }
+  },
+  "ops_ver": {
+    "maxDice": {
+      "thr": 0.0,
+      "min_area": 0,
+      "tau": 0.4,
+      "rel": 0.75,
+      "max_k": 99,
+      "top1": false,
+      "oof_dice": 0.602192769574027,
+      "oof_p1": 0.4649530833406995
+    },
+    "maxF1": {
+      "thr": 0.0,
+      "min_area": 0,
+      "tau": 0.4,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6020096006784542,
+      "oof_p1": 0.4652957382051068
+    },
+    "balanced": {
+      "thr": 0.0,
+      "min_area": 0,
+      "tau": 0.4,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6020096006784542,
+      "oof_p1": 0.4652957382051068
+    }
+  },
+  "cand": {
+    "thr": 0.3,
+    "min_area": 100,
+    "max": 8
+  },
+  "ver_epochs": 12
+}

@@ -1,0 +1,5 @@
+measure,syntax_vs,median,p99,max,n_ge_098_or_tp
+raw32,stenosis test,0.849,1.0,1.0,123
+raw32,stenosis pool (1200),0.906,1.0,1.0,341
+hp128,stenosis test,0.528,1.0,1.0,772
+hp128,stenosis pool (1200),0.758,1.0,1.0,1058

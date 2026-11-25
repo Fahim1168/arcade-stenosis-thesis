@@ -1,0 +1,70 @@
+{
+  "tta_mode": "ms",
+  "ops": {
+    "maxDice-ARCADE": {
+      "thr": 0.35,
+      "min_area": 150,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": true,
+      "oof_dice": 0.6027886273512212,
+      "oof_p1": 0.46754111537941573
+    },
+    "maxF1-ARCADE": {
+      "thr": 0.45,
+      "min_area": 331,
+      "tau": 0.6,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": true,
+      "oof_dice": 0.5981335377701628,
+      "oof_p1": 0.4702183568870053
+    },
+    "balanced-ARCADE": {
+      "thr": 0.35,
+      "min_area": 150,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": true,
+      "oof_dice": 0.6027886273512212,
+      "oof_p1": 0.46754111537941573
+    },
+    "maxDice-DEPLOY": {
+      "thr": 0.35,
+      "min_area": 150,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6027886273512212,
+      "oof_p1": 0.46754111537941573
+    },
+    "maxF1-DEPLOY": {
+      "thr": 0.45,
+      "min_area": 331,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.5986303982035496,
+      "oof_p1": 0.46959099858370346
+    },
+    "balanced-DEPLOY": {
+      "thr": 0.35,
+      "min_area": 150,
+      "tau": 0.2,
+      "rel": 0.75,
+      "max_k": 3,
+      "top1": false,
+      "oof_dice": 0.6027886273512212,
+      "oof_p1": 0.46754111537941573
+    }
+  },
+  "archs": [
+    "dl3_r101"
+  ],
+  "folds": 5,
+  "epochs": 40
+}

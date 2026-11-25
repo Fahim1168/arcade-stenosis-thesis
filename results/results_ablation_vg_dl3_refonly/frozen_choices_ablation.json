@@ -1,0 +1,196 @@
+{
+  "headline": "balanced-DEPLOY",
+  "ops": {
+    "B baseline (DeepLabV3+)": {
+      "maxDice-ARCADE": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "oof_dice": 0.5943439057895409,
+        "oof_p1": 0.4647384554147242
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.5881984090909627,
+        "oof_p1": 0.4669720466371259
+      },
+      "balanced-ARCADE": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.5940744498113693,
+        "oof_p1": 0.46531761710837677
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.5943439057895409,
+        "oof_p1": 0.4647384554147242
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 331,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.5918710468119438,
+        "oof_p1": 0.46571947195619323
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.5940744498113693,
+        "oof_p1": 0.46531761710837677
+      }
+    },
+    "R refinement head only": {
+      "maxDice-ARCADE": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "oof_dice": 0.5946010662403334,
+        "oof_p1": 0.4585656784439005
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.45,
+        "min_area": 331,
+        "tau": 0.8,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.5820299120686773,
+        "oof_p1": 0.46320631588370875
+      },
+      "balanced-ARCADE": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.5938467494310197,
+        "oof_p1": 0.46144793187709326
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.5946010662403334,
+        "oof_p1": 0.4585656784439005
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.45,
+        "min_area": 331,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.592171037441471,
+        "oof_p1": 0.4620635467022285
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.5939555633353074,
+        "oof_p1": 0.4608542733163615
+      }
+    },
+    "N full VG-DeepLab": {
+      "maxDice-ARCADE": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.6027729394258109,
+        "oof_p1": 0.4630667827293008
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.596612990425752,
+        "oof_p1": 0.4654833600316661
+      },
+      "balanced-ARCADE": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.6022156063973478,
+        "oof_p1": 0.46405575881030614
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.6027729394258109,
+        "oof_p1": 0.4630667827293008
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.6027729394258109,
+        "oof_p1": 0.4630667827293008
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.6027729394258109,
+        "oof_p1": 0.4630667827293008
+      }
+    }
+  },
+  "new_tag": "vg_dl3_refonly",
+  "use_aux": false,
+  "use_refine": true,
+  "epochs": 40,
+  "folds": 5
+}

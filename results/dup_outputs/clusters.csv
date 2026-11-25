@@ -1,0 +1,24 @@
+cluster,size,n_pool,n_test,folds,images
+4,348,228,120,"[0, 1, 2, 3, 4]",train/5.png;train/16.png;train/19.png;train/34.png;train/36.png;train/40.png;train/45.png;train/51.png;train/63.png;train/64.png;train/66.png;train/85.png
+24,2,2,0,[0],train/27.png;train/617.png
+41,2,2,0,"[3, 4]",train/48.png;train/930.png
+64,2,2,0,[0],train/75.png;train/526.png
+74,2,2,0,[3],train/86.png;train/916.png
+107,2,2,0,"[0, 1]",train/126.png;val/180.png
+124,2,2,0,"[0, 2]",train/148.png;train/799.png
+158,4,4,0,"[2, 3, 4]",train/186.png;train/890.png;val/176.png;val/98.png
+178,2,2,0,"[0, 4]",train/210.png;train/286.png
+226,2,2,0,"[0, 3]",train/268.png;train/703.png
+315,2,2,0,"[1, 3]",train/383.png;val/55.png
+322,2,2,0,"[0, 1]",train/390.png;val/122.png
+353,3,3,0,"[1, 3]",train/429.png;train/698.png;train/886.png
+360,2,2,0,"[2, 4]",train/437.png;train/456.png
+363,2,2,0,"[0, 2]",train/441.png;train/752.png
+391,2,2,0,"[2, 3]",train/475.png;val/86.png
+438,2,2,0,"[1, 2]",train/537.png;val/129.png
+444,2,2,0,"[2, 3]",train/545.png;train/864.png
+456,2,2,0,"[3, 4]",train/560.png;train/747.png
+476,2,2,0,[0],train/592.png;train/713.png
+494,2,2,0,"[0, 1]",train/612.png;train/705.png
+670,2,2,0,"[2, 3]",train/840.png;val/75.png
+758,2,2,0,[4],train/950.png;val/50.png

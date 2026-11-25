@@ -1,0 +1,13 @@
+model,which,dice,official_style_F1,true_F1,preds_per_image
+B,fold model 0,0.6083,0.5035,0.5455,1.463
+B,fold model 1,0.6043,0.5029,0.5455,1.453
+B,fold model 2,0.5942,0.4873,0.535,1.53
+B,fold model 3,0.6036,0.4925,0.5395,1.52
+B,fold model 4,0.6028,0.5019,0.5453,1.523
+B,5-model mean (thesis),0.6197,0.5165,0.5587,1.443
+N,fold model 0,0.6215,0.5231,0.5617,1.443
+N,fold model 1,0.6226,0.5261,0.5648,1.447
+N,fold model 2,0.6126,0.5039,0.5493,1.493
+N,fold model 3,0.6156,0.5029,0.5472,1.513
+N,fold model 4,0.6134,0.4959,0.5441,1.527
+N,5-model mean (thesis),0.6358,0.5436,0.5798,1.4

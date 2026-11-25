@@ -1,0 +1,4 @@
+method,Dice/img,>=.65,Dice pooled,>=.65 ,official F1,>=.55,mAP50
+"M1 segmenter only (earlier pipeline, full grid)",0.6267,no,0.6365,no,0.5276,no,0.3249
+M2 segmenter only (same candidates),0.6249,no,0.6345,no,0.5282,no,0.3249
+M3 segmenter + verifier (seg),0.6249,no,0.6345,no,0.5282,no,0.3249
