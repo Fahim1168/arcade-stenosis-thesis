@@ -1,0 +1,3 @@
+model,status,box F1@IoU.5,box mAP50,note
+YOLOv8s detection (v4 raw),weights lost - NOT re-scored,"0.329 (Ultralytics, best-F1 confidence) / 0.310 (fixed confidence 0.25)",0.254,"earlier protocol, box level, no confidence interval"
+"YOLOv8s-seg (first run, 2 GPUs)",weights lost - NOT re-scored,-,-,"same metric code, ARCADE-protocol selection: official-style F1 0.480, Dice/img 0.522, mask mAP50 0.335; the re-run scored here is the second run"

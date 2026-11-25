@@ -1,0 +1,299 @@
+{
+  "headline": "balanced-DEPLOY",
+  "ops": {
+    "U-Net v2": {
+      "maxDice-ARCADE": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.5689508755014456,
+        "val_p1": 0.4008288980014622
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.3,
+        "min_area": 331,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.5624515077709047,
+        "val_p1": 0.4020686620059423
+      },
+      "balanced-ARCADE": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.5689508755014456,
+        "val_p1": 0.4008288980014622
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.5689508755014456,
+        "val_p1": 0.4008288980014622
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.3,
+        "min_area": 331,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.5624515077709047,
+        "val_p1": 0.4020686620059423
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.5689508755014456,
+        "val_p1": 0.4008288980014622
+      }
+    },
+    "Attention U-Net v2": {
+      "maxDice-ARCADE": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.570766593171902,
+        "val_p1": 0.38419073143593657
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.5,
+        "min_area": 331,
+        "tau": 0.8,
+        "rel": 0.0,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.5601802226709595,
+        "val_p1": 0.3937349876152972
+      },
+      "balanced-ARCADE": {
+        "thr": 0.5,
+        "min_area": 331,
+        "tau": 0.6,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.5664342114791047,
+        "val_p1": 0.39130726429944246
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.570766593171902,
+        "val_p1": 0.38419073143593657
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.5,
+        "min_area": 331,
+        "tau": 0.6,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.5664342114791047,
+        "val_p1": 0.39130726429944246
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.5,
+        "min_area": 331,
+        "tau": 0.6,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.5664342114791047,
+        "val_p1": 0.39130726429944246
+      }
+    },
+    "YOLOv8s-seg": {
+      "maxDice-ARCADE": {
+        "thr": 0.0,
+        "min_area": 0,
+        "tau": 0.05,
+        "rel": 0.0,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.7123120585715,
+        "val_p1": 0.288422326594091
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.0,
+        "min_area": 0,
+        "tau": 0.2,
+        "rel": 0.0,
+        "max_k": 2,
+        "top1": true,
+        "val_dice": 0.5509409490005567,
+        "val_p1": 0.3829472644034929
+      },
+      "balanced-ARCADE": {
+        "thr": 0.0,
+        "min_area": 0,
+        "tau": 0.05,
+        "rel": 0.0,
+        "max_k": 99,
+        "top1": true,
+        "val_dice": 0.7123120585715,
+        "val_p1": 0.288422326594091
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.0,
+        "min_area": 0,
+        "tau": 0.05,
+        "rel": 0.0,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.7057820682954146,
+        "val_p1": 0.28383752956936414
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.0,
+        "min_area": 0,
+        "tau": 0.05,
+        "rel": 0.5,
+        "max_k": 2,
+        "top1": false,
+        "val_dice": 0.5429267871179337,
+        "val_p1": 0.36851964393296904
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.0,
+        "min_area": 0,
+        "tau": 0.05,
+        "rel": 0.0,
+        "max_k": 99,
+        "top1": false,
+        "val_dice": 0.7057820682954146,
+        "val_p1": 0.28383752956936414
+      }
+    },
+    "DeepLabV3+ R101": {
+      "maxDice-ARCADE": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "val_dice": 0.5952578456829852,
+        "val_p1": 0.4134050195235759
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.55,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": true,
+        "val_dice": 0.5882645967909236,
+        "val_p1": 0.424223848515811
+      },
+      "balanced-ARCADE": {
+        "thr": 0.55,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": true,
+        "val_dice": 0.5882645967909236,
+        "val_p1": 0.424223848515811
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "val_dice": 0.5952578456829852,
+        "val_p1": 0.4134050195235759
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.55,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": false,
+        "val_dice": 0.5882645967909236,
+        "val_p1": 0.424223848515811
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.55,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": false,
+        "val_dice": 0.5882645967909236,
+        "val_p1": 0.424223848515811
+      }
+    },
+    "B DeepLabV3+ x5": {
+      "balanced-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.4,
+        "min_area": 331,
+        "tau": 0.6,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true
+      }
+    },
+    "N VG-DeepLab x5": {
+      "balanced-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": true
+      }
+    }
+  },
+  "files": {
+    "U-Net v2": "unet_best.pt",
+    "Attention U-Net v2": "attention_unet_best.pt",
+    "YOLOv8s-seg": "yolov8s_seg_best.pt",
+    "DeepLabV3+ R101": "deeplabv3plus_r101_best.pt",
+    "B DeepLabV3+ x5": "dl3_r101_f0..4.pt",
+    "N VG-DeepLab x5": "vg_dl3_f0..4.pt"
+  },
+  "min_area_ref": 331,
+  "smoke_test": false
+}

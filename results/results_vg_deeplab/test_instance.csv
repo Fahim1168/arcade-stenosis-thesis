@@ -1,0 +1,13 @@
+method,operating point,inst F1@.5,P@.5,R@.5,IoU/img,lesions/img
+B baseline,balanced-DEPLOY,0.4591,0.4342,0.487,0.4741,1.44
+B baseline,maxDice-DEPLOY,0.458,0.4322,0.487,0.4738,1.45
+B baseline,maxF1-DEPLOY,0.4608,0.4372,0.487,0.4737,1.43
+B baseline,maxF1-ARCADE,0.4638,0.4471,0.4819,0.4759,1.39
+N new model,balanced-DEPLOY,0.4864,0.4667,0.5078,0.4936,1.4
+N new model,maxDice-DEPLOY,0.4864,0.4667,0.5078,0.4936,1.4
+N new model,maxF1-DEPLOY,0.4864,0.4667,0.5078,0.4936,1.4
+N new model,maxF1-ARCADE,0.5198,0.5139,0.5259,0.4999,1.32
+E ensemble,balanced-DEPLOY,0.4798,0.4548,0.5078,0.4875,1.44
+E ensemble,maxDice-DEPLOY,0.4819,0.4651,0.5,0.4841,1.38
+E ensemble,maxF1-DEPLOY,0.4798,0.4548,0.5078,0.4875,1.44
+E ensemble,maxF1-ARCADE,0.5089,0.4975,0.5207,0.488,1.35

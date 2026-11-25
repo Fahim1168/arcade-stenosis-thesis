@@ -1,0 +1,196 @@
+{
+  "headline": "balanced-DEPLOY",
+  "ops": {
+    "B baseline (DeepLabV3+)": {
+      "maxDice-ARCADE": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": true,
+        "oof_dice": 0.594343764958881,
+        "oof_p1": 0.4647412191229497
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.4,
+        "min_area": 331,
+        "tau": 0.6,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.5920280910137724,
+        "oof_p1": 0.4670740511782713
+      },
+      "balanced-ARCADE": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.5940765180263106,
+        "oof_p1": 0.4653216554205386
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.594343764958881,
+        "oof_p1": 0.4647412191229497
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 331,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.5921056143849399,
+        "oof_p1": 0.46597642344040147
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.4,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 99,
+        "top1": false,
+        "oof_dice": 0.5940765180263106,
+        "oof_p1": 0.4653216554205386
+      }
+    },
+    "U pretrained U-Net (ResNet101)": {
+      "maxDice-ARCADE": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.5953955766075015,
+        "oof_p1": 0.46033338716571864
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.6,
+        "rel": 0.75,
+        "max_k": 2,
+        "top1": true,
+        "oof_dice": 0.5919871148099496,
+        "oof_p1": 0.4619855678435749
+      },
+      "balanced-ARCADE": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.5953955766075015,
+        "oof_p1": 0.46033338716571864
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.5953955766075015,
+        "oof_p1": 0.46033338716571864
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 2,
+        "top1": false,
+        "oof_dice": 0.594188397373147,
+        "oof_p1": 0.46095900919933325
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.3,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.5953955766075015,
+        "oof_p1": 0.46033338716571864
+      }
+    },
+    "N full VG-DeepLab": {
+      "maxDice-ARCADE": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.6030202420756009,
+        "oof_p1": 0.4634217458964278
+      },
+      "maxF1-ARCADE": {
+        "thr": 0.45,
+        "min_area": 150,
+        "tau": 0.7,
+        "rel": 0.0,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.5966163841560932,
+        "oof_p1": 0.4654844766499733
+      },
+      "balanced-ARCADE": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.5,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": true,
+        "oof_dice": 0.6024621127540019,
+        "oof_p1": 0.46441095583874054
+      },
+      "maxDice-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.6030202420756009,
+        "oof_p1": 0.4634217458964278
+      },
+      "maxF1-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.6030202420756009,
+        "oof_p1": 0.4634217458964278
+      },
+      "balanced-DEPLOY": {
+        "thr": 0.35,
+        "min_area": 150,
+        "tau": 0.2,
+        "rel": 0.75,
+        "max_k": 3,
+        "top1": false,
+        "oof_dice": 0.6030202420756009,
+        "oof_p1": 0.4634217458964278
+      }
+    }
+  },
+  "new_tag": "unet_r101",
+  "use_aux": false,
+  "use_refine": false,
+  "epochs": 40,
+  "folds": 5
+}

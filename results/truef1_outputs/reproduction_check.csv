@@ -1,0 +1,11 @@
+split,model,op,metric,thesis,here,diff,status
+test,B,balanced-DEPLOY,Dice/img,0.6197,0.6197,0.0,OK
+test,B,balanced-DEPLOY,official-style F1,0.5165,0.5165,-0.0,OK
+test,N,balanced-DEPLOY,Dice/img,0.6358,0.6358,-0.0,OK
+test,N,balanced-DEPLOY,official-style F1,0.5436,0.5436,-0.0,OK
+test,B,maxF1-ARCADE,official-style F1,0.523,0.523,0.0,OK
+test,N,maxF1-ARCADE,official-style F1,0.5579,0.5579,-0.0,OK
+oof,B,balanced-DEPLOY,Dice/img,0.5941,0.5941,-0.0,OK
+oof,B,balanced-DEPLOY,official-style F1,0.4653,0.4653,0.0,OK
+oof,N,balanced-DEPLOY,Dice/img,0.6028,0.6028,-0.0,OK
+oof,N,balanced-DEPLOY,official-style F1,0.4631,0.4631,-0.0,OK

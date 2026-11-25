@@ -1,0 +1,11 @@
+comparison,metric,difference,95% CI,P(better),CI excludes 0
+N new model minus B baseline,Dice/img,0.0161,"[+0.0079, +0.0248]",1.0,YES
+N new model minus B baseline,official F1,0.0271,"[+0.0133, +0.0422]",1.0,YES
+N new model minus B baseline,inst F1@.5,0.0273,"[-0.0025, +0.0571]",0.962,no
+N new model minus B baseline,mAP50,0.0428,"[+0.0063, +0.0794]",1.0,YES
+N new model minus B baseline,mAP50-95,0.011,"[+0.0032, +0.0215]",1.0,YES
+E ensemble minus B baseline,Dice/img,0.0119,"[+0.0064, +0.0171]",1.0,YES
+E ensemble minus B baseline,official F1,0.0141,"[+0.0037, +0.0237]",0.995,YES
+E ensemble minus B baseline,inst F1@.5,0.0207,"[-0.0029, +0.0427]",0.952,no
+E ensemble minus B baseline,mAP50,0.0321,"[+0.0082, +0.0672]",0.995,YES
+E ensemble minus B baseline,mAP50-95,0.0056,"[-0.0003, +0.0127]",0.97,no

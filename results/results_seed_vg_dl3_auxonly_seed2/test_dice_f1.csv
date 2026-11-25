@@ -1,0 +1,9 @@
+method,operating point,Dice/img [95% CI],Dice pooled,official F1 [95% CI]
+B baseline,balanced-DEPLOY,"0.6197 [0.596,0.640]",0.6327,"0.5165 [0.489,0.544]"
+B baseline,maxF1-ARCADE,"0.6211 [0.597,0.642]",0.6364,"0.5230 [0.495,0.550]"
+"V0 vessel head only, first run",balanced-DEPLOY,"0.6317 [0.608,0.652]",0.6459,"0.5210 [0.493,0.548]"
+"V0 vessel head only, first run",maxF1-ARCADE,"0.6383 [0.614,0.660]",0.6553,"0.5464 [0.518,0.572]"
+S V with training seed 2042,balanced-DEPLOY,"0.6305 [0.607,0.651]",0.6436,"0.5192 [0.491,0.547]"
+S V with training seed 2042,maxF1-ARCADE,"0.6324 [0.609,0.653]",0.6477,"0.5345 [0.505,0.560]"
+N full VG-DeepLab,balanced-DEPLOY,"0.6358 [0.611,0.657]",0.6468,"0.5436 [0.515,0.570]"
+N full VG-DeepLab,maxF1-ARCADE,"0.6412 [0.616,0.662]",0.6521,"0.5579 [0.530,0.584]"

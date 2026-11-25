@@ -1,0 +1,61 @@
+A,B,metric,A value,B value,B minus A,95% CI,95% CI excludes 0,Bonferroni CI (15 pairs) excludes 0,P(B better)
+U-Net v2,Attention U-Net v2,Dice/img,0.5604,0.5632,0.0028,"[-0.0141,+0.0192]",False,False,0.627
+U-Net v2,Attention U-Net v2,official-style F1,0.4359,0.429,-0.0069,"[-0.0318,+0.0179]",False,False,0.291
+U-Net v2,Attention U-Net v2,inst F1@IoU.5,0.3828,0.3886,0.0058,"[-0.0354,+0.0487]",False,False,0.608
+U-Net v2,Attention U-Net v2,mAP50,0.2293,0.2548,0.0255,"[-0.0263,+0.0725]",False,False,0.82
+U-Net v2,YOLOv8s-seg,Dice/img,0.5604,0.5354,-0.025,"[-0.0491,+0.0001]",False,False,0.025
+U-Net v2,YOLOv8s-seg,official-style F1,0.4359,0.2162,-0.2197,"[-0.2489,-0.1901]",True,True,0.0
+U-Net v2,YOLOv8s-seg,inst F1@IoU.5,0.3828,0.2913,-0.0916,"[-0.1329,-0.0491]",True,True,0.0
+U-Net v2,YOLOv8s-seg,mAP50,0.2293,0.2941,0.0648,"[+0.0094,+0.1283]",True,False,0.99
+U-Net v2,DeepLabV3+ R101,Dice/img,0.5604,0.5858,0.0254,"[+0.0043,+0.0473]",True,False,0.99
+U-Net v2,DeepLabV3+ R101,official-style F1,0.4359,0.4864,0.0505,"[+0.0243,+0.0766]",True,True,1.0
+U-Net v2,DeepLabV3+ R101,inst F1@IoU.5,0.3828,0.4453,0.0624,"[+0.0142,+0.1097]",True,False,0.994
+U-Net v2,DeepLabV3+ R101,mAP50,0.2293,0.3163,0.087,"[+0.0231,+0.1438]",True,True,0.995
+U-Net v2,B DeepLabV3+ x5,Dice/img,0.5604,0.6197,0.0594,"[+0.0411,+0.0789]",True,True,1.0
+U-Net v2,B DeepLabV3+ x5,official-style F1,0.4359,0.5165,0.0806,"[+0.0550,+0.1076]",True,True,1.0
+U-Net v2,B DeepLabV3+ x5,inst F1@IoU.5,0.3828,0.4591,0.0763,"[+0.0280,+0.1257]",True,True,0.999
+U-Net v2,B DeepLabV3+ x5,mAP50,0.2293,0.3126,0.0833,"[+0.0251,+0.1403]",True,True,1.0
+U-Net v2,N VG-DeepLab x5,Dice/img,0.5604,0.6358,0.0754,"[+0.0555,+0.0966]",True,True,1.0
+U-Net v2,N VG-DeepLab x5,official-style F1,0.4359,0.5436,0.1077,"[+0.0790,+0.1364]",True,True,1.0
+U-Net v2,N VG-DeepLab x5,inst F1@IoU.5,0.3828,0.4864,0.1035,"[+0.0534,+0.1552]",True,True,1.0
+U-Net v2,N VG-DeepLab x5,mAP50,0.2293,0.3555,0.1261,"[+0.0660,+0.1922]",True,True,1.0
+Attention U-Net v2,YOLOv8s-seg,Dice/img,0.5632,0.5354,-0.0278,"[-0.0507,-0.0041]",True,False,0.011
+Attention U-Net v2,YOLOv8s-seg,official-style F1,0.429,0.2162,-0.2128,"[-0.2423,-0.1825]",True,True,0.0
+Attention U-Net v2,YOLOv8s-seg,inst F1@IoU.5,0.3886,0.2913,-0.0974,"[-0.1402,-0.0555]",True,True,0.0
+Attention U-Net v2,YOLOv8s-seg,mAP50,0.2548,0.2941,0.0393,"[-0.0200,+0.1078]",False,False,0.905
+Attention U-Net v2,DeepLabV3+ R101,Dice/img,0.5632,0.5858,0.0226,"[-0.0008,+0.0460]",False,False,0.97
+Attention U-Net v2,DeepLabV3+ R101,official-style F1,0.429,0.4864,0.0574,"[+0.0284,+0.0868]",True,True,1.0
+Attention U-Net v2,DeepLabV3+ R101,inst F1@IoU.5,0.3886,0.4453,0.0566,"[+0.0060,+0.1065]",True,False,0.985
+Attention U-Net v2,DeepLabV3+ R101,mAP50,0.2548,0.3163,0.0615,"[+0.0027,+0.1208]",True,False,0.98
+Attention U-Net v2,B DeepLabV3+ x5,Dice/img,0.5632,0.6197,0.0566,"[+0.0380,+0.0759]",True,True,1.0
+Attention U-Net v2,B DeepLabV3+ x5,official-style F1,0.429,0.5165,0.0875,"[+0.0624,+0.1136]",True,True,1.0
+Attention U-Net v2,B DeepLabV3+ x5,inst F1@IoU.5,0.3886,0.4591,0.0705,"[+0.0185,+0.1220]",True,False,0.996
+Attention U-Net v2,B DeepLabV3+ x5,mAP50,0.2548,0.3126,0.0578,"[-0.0123,+0.1135]",False,False,0.95
+Attention U-Net v2,N VG-DeepLab x5,Dice/img,0.5632,0.6358,0.0726,"[+0.0527,+0.0935]",True,True,1.0
+Attention U-Net v2,N VG-DeepLab x5,official-style F1,0.429,0.5436,0.1146,"[+0.0865,+0.1438]",True,True,1.0
+Attention U-Net v2,N VG-DeepLab x5,inst F1@IoU.5,0.3886,0.4864,0.0977,"[+0.0437,+0.1515]",True,True,1.0
+Attention U-Net v2,N VG-DeepLab x5,mAP50,0.2548,0.3555,0.1007,"[+0.0296,+0.1642]",True,True,1.0
+YOLOv8s-seg,DeepLabV3+ R101,Dice/img,0.5354,0.5858,0.0503,"[+0.0221,+0.0778]",True,True,0.999
+YOLOv8s-seg,DeepLabV3+ R101,official-style F1,0.2162,0.4864,0.2702,"[+0.2388,+0.3018]",True,True,1.0
+YOLOv8s-seg,DeepLabV3+ R101,inst F1@IoU.5,0.2913,0.4453,0.154,"[+0.1058,+0.2023]",True,True,1.0
+YOLOv8s-seg,DeepLabV3+ R101,mAP50,0.2941,0.3163,0.0222,"[-0.0570,+0.0856]",False,False,0.73
+YOLOv8s-seg,B DeepLabV3+ x5,Dice/img,0.5354,0.6197,0.0843,"[+0.0630,+0.1056]",True,True,1.0
+YOLOv8s-seg,B DeepLabV3+ x5,official-style F1,0.2162,0.5165,0.3003,"[+0.2698,+0.3309]",True,True,1.0
+YOLOv8s-seg,B DeepLabV3+ x5,inst F1@IoU.5,0.2913,0.4591,0.1678,"[+0.1180,+0.2193]",True,True,1.0
+YOLOv8s-seg,B DeepLabV3+ x5,mAP50,0.2941,0.3126,0.0185,"[-0.0512,+0.0834]",False,False,0.595
+YOLOv8s-seg,N VG-DeepLab x5,Dice/img,0.5354,0.6358,0.1004,"[+0.0789,+0.1216]",True,True,1.0
+YOLOv8s-seg,N VG-DeepLab x5,official-style F1,0.2162,0.5436,0.3274,"[+0.2964,+0.3586]",True,True,1.0
+YOLOv8s-seg,N VG-DeepLab x5,inst F1@IoU.5,0.2913,0.4864,0.1951,"[+0.1429,+0.2493]",True,True,1.0
+YOLOv8s-seg,N VG-DeepLab x5,mAP50,0.2941,0.3555,0.0613,"[-0.0143,+0.1335]",False,False,0.915
+DeepLabV3+ R101,B DeepLabV3+ x5,Dice/img,0.5858,0.6197,0.034,"[+0.0152,+0.0536]",True,True,0.999
+DeepLabV3+ R101,B DeepLabV3+ x5,official-style F1,0.4864,0.5165,0.0301,"[+0.0048,+0.0551]",True,False,0.989
+DeepLabV3+ R101,B DeepLabV3+ x5,inst F1@IoU.5,0.4453,0.4591,0.0138,"[-0.0344,+0.0630]",False,False,0.709
+DeepLabV3+ R101,B DeepLabV3+ x5,mAP50,0.3163,0.3126,-0.0037,"[-0.0618,+0.0490]",False,False,0.345
+DeepLabV3+ R101,N VG-DeepLab x5,Dice/img,0.5858,0.6358,0.05,"[+0.0305,+0.0711]",True,True,1.0
+DeepLabV3+ R101,N VG-DeepLab x5,official-style F1,0.4864,0.5436,0.0572,"[+0.0318,+0.0838]",True,True,1.0
+DeepLabV3+ R101,N VG-DeepLab x5,inst F1@IoU.5,0.4453,0.4864,0.0411,"[-0.0078,+0.0919]",False,False,0.95
+DeepLabV3+ R101,N VG-DeepLab x5,mAP50,0.3163,0.3555,0.0392,"[-0.0204,+0.0926]",False,False,0.9
+B DeepLabV3+ x5,N VG-DeepLab x5,Dice/img,0.6197,0.6358,0.0161,"[+0.0074,+0.0249]",True,True,1.0
+B DeepLabV3+ x5,N VG-DeepLab x5,official-style F1,0.5165,0.5436,0.0271,"[+0.0128,+0.0421]",True,True,1.0
+B DeepLabV3+ x5,N VG-DeepLab x5,inst F1@IoU.5,0.4591,0.4864,0.0273,"[-0.0023,+0.0574]",False,False,0.964
+B DeepLabV3+ x5,N VG-DeepLab x5,mAP50,0.3126,0.3555,0.0428,"[+0.0064,+0.0794]",True,True,1.0

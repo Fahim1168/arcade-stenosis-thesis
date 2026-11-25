@@ -1,0 +1,13 @@
+model,setting,metric,recorded,this notebook,difference,tolerance,status
+U-Net v2,"no TTA, thr 0.5, no filter",Dice / image,0.5303,0.5304,0.0001,0.006,OK
+U-Net v2,"flip TTA, thr 0.5, no filter",Dice / image,0.546,0.5461,0.0001,0.006,OK
+Attention U-Net v2,"no TTA, thr 0.5, no filter",Dice / image,0.5365,0.5365,-0.0,0.006,OK
+Attention U-Net v2,"flip TTA, thr 0.5, no filter",Dice / image,0.5561,0.5561,0.0,0.006,OK
+DeepLabV3+ R101,"no TTA, thr 0.5, no filter",Dice / image,0.581,0.5779,-0.0031,0.006,OK
+DeepLabV3+ R101,"flip TTA, thr 0.5, no filter",Dice / image,0.599,0.5925,-0.0065,0.006,MISMATCH
+YOLOv8s-seg,"tau 0.3, max 2, top-1",official-style F1,0.4542,0.4542,0.0,0.012,OK
+YOLOv8s-seg,"tau 0.3, max 2, top-1",Dice / image,0.5293,0.5293,0.0,0.012,OK
+B DeepLabV3+ x5,frozen balanced-DEPLOY,Dice / image,0.6197,0.6197,0.0,0.004,OK
+B DeepLabV3+ x5,frozen balanced-DEPLOY,official-style F1,0.5165,0.5165,-0.0,0.004,OK
+N VG-DeepLab x5,frozen balanced-DEPLOY,Dice / image,0.6358,0.6358,-0.0,0.004,OK
+N VG-DeepLab x5,frozen balanced-DEPLOY,official-style F1,0.5436,0.5436,-0.0,0.004,OK

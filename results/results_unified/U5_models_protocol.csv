@@ -1,0 +1,7 @@
+model,weights file,parameters (M),inference (ms / image),protocol
+U-Net v2,unet_best.pt,7.8,44.0,"single model, flip TTA, post-processing chosen on validation"
+Attention U-Net v2,attention_unet_best.pt,7.9,48.6,"single model, flip TTA, post-processing chosen on validation"
+YOLOv8s-seg,yolov8s_seg_best.pt,11.8,31.9,"single model, no TTA, selection chosen on validation"
+DeepLabV3+ R101,deeplabv3plus_r101_best.pt,45.7,45.7,"single model, flip TTA, post-processing chosen on validation"
+B DeepLabV3+ x5,dl3_r101_f0..4.pt,228.3,445.2,"5-fold ensemble (train+val), multi-scale + flip TTA, post-processing frozen on out-of-fold predictions"
+N VG-DeepLab x5,vg_dl3_f0..4.pt,228.4,548.1,"5-fold ensemble (train+val), multi-scale + flip TTA, post-processing frozen on out-of-fold predictions"

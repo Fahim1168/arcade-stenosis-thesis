@@ -1,0 +1,4 @@
+method,vessel head,refinement,OOF Dice/img,OOF off.F1,TEST Dice/img,TEST Dice pooled,TEST off.F1,TEST inst F1@.5,TEST mAP50,TEST mAP50-95
+B baseline,-,-,0.5941,0.4653,0.6197,0.6327,0.5165,0.4591,0.3126,0.0798
+U pretrained U-Net,-,-,0.5954,0.4603,0.618,0.6286,0.5139,0.4379,0.2919,0.0776
+N full VG-DeepLab,yes,yes,0.603,0.4634,0.6358,0.6468,0.5436,0.4864,0.3555,0.0909
